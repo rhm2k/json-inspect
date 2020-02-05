@@ -5,11 +5,19 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>JSON Inspect</title>
     <link rel = "stylesheet" type = "text/css" href = "main.css" />
   </head>
   <body>
-
+    <section class="hero is-fullheight">
+    <div class="container is-vertical-center">
+      <p>Drag/drop a JSON file here, paste your JSON on this window or enter a URL </p>
+      <div>
+        <input class="input" type="text" placeholder="https://jsonplaceholder.typicode.com/todos/1">
+        <button class="button is-primary">Process</button>
+      </div>
+    </div>
+  </section>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>

@@ -30,5 +30,8 @@
   "homepage": "https://github.com/emilyplusplus/json-inspect#readme",
   "devDependencies": {
     "electron": "^8.0.0"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "name": "json-inspect",
+  "version": "1.0.0",
+  "description": "A cross-platform desktop application that makes parsing, analyzing, manipulating, and outputting large JSON datasets easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyplusplus/json-inspect.git"
+  },
+  "keywords": [
+    "json",
+    "viewer",
+    "parser",
+    "analysis",
+    "analyzer",
+    "tool",
+    "offline",
+    "desktop",
+    "editor"
+  ],
+  "author": "Emily Carlsen",
+  "license": "SEE LICENSE IN license.txt",
+  "bugs": {
+    "url": "https://github.com/emilyplusplus/json-inspect/issues"
+  },
+  "homepage": "https://github.com/emilyplusplus/json-inspect#readme",
+  "devDependencies": {
+    "electron": "^8.0.0"
+  }
+}
